@@ -23,11 +23,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-9aw6+)5@lagn$_sla*c1hkcagfc4h4d+qi)lng(y@annaw3u1z'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://djangominibloglive-production.up.railway.app/']
+CSRF_TRUSTED_ORIGINS = ['https://djangominibloglive-production.up.railway.app', 'https://djangominibloglive-production.up.railway.app/']
 # Application definition
 
 INSTALLED_APPS = [
