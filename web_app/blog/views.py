@@ -14,6 +14,7 @@ def index(request):
             instance= form.save(commit=False)
             instance.author= request.user
             instance.save()
+            form = PostModelForm()
     context={
         'posts': posts,
         'form' : form
